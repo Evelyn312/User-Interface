@@ -30,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	
 }
 ol, ul {
 	list-style: none;
@@ -66,18 +67,37 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 body {
 	padding: 48px 15px 48px 100px;
+	font-family: ubuntu;
 }
 nav {
+	position: fixed;
+	top: 0;
 	width: 100%;
+
 }
 nav a {
-	text-decoration: none;
+	background-color: #d085a82c;
 	display: inline-block;
 	width: 12%;
+	height: 10%;
+	
+	padding: 30px auto;
+	text-decoration: none;
+
+}
+nav a:hover{
+	color: red;
+
 }
 
 .logo {
+
+	height: 30px;
+	width: 200px;
 	display: inline-block;
+	background-image: url("/Users/Evelyn/Lambda/Unit1/User-Interface/great-idea-website/img/logo.png");
+	background-repeat: no-repeat;
+	padding: 5px;
 }
 
 h1 {
@@ -94,6 +114,7 @@ h1 {
 	display: inline-block;
 	height: 400px;
 	vertical-align:top;
+	
 
 }
 
@@ -103,7 +124,9 @@ h1 {
 }
 .right{
 	padding: 15px 50px 15px 13%;
-	
+	background-image: url("/Users/Evelyn/Lambda/Unit1/User-Interface/great-idea-website/img/header-img.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
 }
 
 button {
@@ -130,6 +153,7 @@ hr{
 	margin:24px 0;
 	width: 100%;
 	height: 200px;
+	background-image: url("/Users/Evelyn/Lambda/Unit1/User-Interface/great-idea-website/img/mid-page-accent.jpg");
 }
 
 .split-in-three .inline-element {
